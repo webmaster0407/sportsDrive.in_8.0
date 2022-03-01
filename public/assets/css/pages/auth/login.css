@@ -1,0 +1,12 @@
+.form-container {
+	margin: auto !important;
+}
+
+.register-forgot {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main_content {
+	margin-bottom: 30px;
+}

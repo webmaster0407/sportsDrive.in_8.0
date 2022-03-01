@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/
+User-Agent: *
+Crawl-delay : 60
+Disallow : /*calendar*
+Disallow : /*guestbook*
+
+Sitemap: https://www.sportsdrive.in/sitemap.xml

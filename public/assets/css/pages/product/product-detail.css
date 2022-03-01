@@ -1,0 +1,42 @@
+.pr_flash {
+	top: 72px;
+	right: 8px;
+	left: auto;
+	background-color: transparent;
+	text-align:  right;
+}
+
+.pr_flash > img {
+	width: 30%;
+}
+
+.outstockSize {
+	pointer-events: none;
+    cursor: default;
+    color: #fff!important;
+}
+
+.color-img {
+	width: 50px !important;
+	height: 50px !important;
+}
+
+.color-img > img {
+	width: 100%;
+	border-radius: 50%;
+	border: 3px solid #ccc;
+}
+
+.colorselect {
+	width: 45px !important;
+	height: 49px !important;
+}
+
+.product_offer_container {
+	text-align: center;
+}
+
+.product_offer_container .cart-product-quantity {
+	margin-left: auto;
+	margin-right: auto;
+}

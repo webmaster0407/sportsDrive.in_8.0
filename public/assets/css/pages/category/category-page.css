@@ -1,0 +1,18 @@
+.pr_flash {
+	background-color: transparent;
+	text-align: right;
+	right: -8px;
+	top: -3px;
+	left: auto;
+}
+
+.pr_flash > img {
+	width: 35%;
+}
+
+#searchBrand {
+	padding: 5px; 
+	border: #a6a6a6 1px solid;
+	border-radius:4px;
+	margin-bottom: 10px;
+}

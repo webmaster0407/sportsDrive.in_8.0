@@ -1,0 +1,1296 @@
+============================2017-11-20 10:00:54=========================
+
+Request
+Wc1WCl|27f780cf7250a979ffe6|1000|SportDrive|Narayan|narayan@invitratech.com|A|B|C|D|E||||||6igOC55O
+
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 
+    [txnid] => 27f780cf7250a979ffe6
+    [surl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [furl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [amount] => 1000
+    [firstname] => Narayan
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [productinfo] => SportDrive
+    [lastname] => Bhendarkar
+    [curl] => https://www.sportsdrive.in/payment_gateway/cancel.php
+    [address1] => Plot # 208, Survery # 96/2B, Right Bhusari Colony,
+    [address2] => Near New India School, Paud Road, Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [udf1] => A
+    [udf2] => B
+    [udf3] => C
+    [udf4] => D
+    [udf5] => E
+    [pg] => 
+)
+
+
+d8724b1faf85c707354523d923fe81b709a836bf6be542aa04ab2143acd8defc296f805f3723975081315755b73f95769a14c7d1efc99df0b75125146e56c3a8
+
+============================2017-11-20 10:05:14=========================
+
+Response
+Array
+(
+    [mihpayid] => 403993715516890945
+    [mode] => CC
+    [status] => success
+    [unmappedstatus] => captured
+    [key] => Wc1WCl
+    [txnid] => 27f780cf7250a979ffe6
+    [amount] => 1000.00
+    [cardCategory] => domestic
+    [discount] => 0.00
+    [net_amount_debit] => 1000
+    [addedon] => 2017-11-20 15:30:55
+    [productinfo] => SportDrive
+    [firstname] => Narayan
+    [lastname] => Bhendarkar
+    [address1] => Plot # 208  Survery # 96 2B  Right Bhusari Colony 
+    [address2] => Near New India School  Paud Road  Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [udf1] => A
+    [udf2] => B
+    [udf3] => C
+    [udf4] => D
+    [udf5] => E
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => c7d2c397c21aba93574c9b108bb335ccae331e3b421934cbd90cf56a5b2f12ba3fb9425aa70e5cbb6d1548637ce27436465c6c0e25ab7862e67fd5d36d651061
+    [field1] => 732466662644
+    [field2] => 999999
+    [field3] => 5594729311573240
+    [field4] => 5594729311573240
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => SUCCESS
+    [payment_source] => payu
+    [PG_TYPE] => HDFCPG
+    [bank_ref_num] => 5594729311573240
+    [bankcode] => CC
+    [error] => E000
+    [error_Message] => No Error
+    [name_on_card] => Narayan Bhendarkar
+    [cardnum] => 401200XXXXXX1112
+    [cardhash] => This field is no longer supported in postback params.
+)
+
+
+============================2017-11-20 10:12:13=========================
+
+Request
+Wc1WCl|02b4028461a8377b59ec|100|Info@|Narayan|narayan@invitratech.com|F101234|narayan@invitratech.com|7276414495|F401234|E||||||6igOC55O
+
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 
+    [txnid] => 02b4028461a8377b59ec
+    [surl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [furl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [amount] => 100
+    [firstname] => Narayan
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [productinfo] => Info@
+    [lastname] => Bhendarkar
+    [curl] => https://www.sportsdrive.in/payment_gateway/cancel.php
+    [address1] => Plot # 208, Survery # 96/2B, Right Bhusari Colony,
+    [address2] => Near New India School, Paud Road, Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [udf1] => F101234
+    [udf2] => narayan@invitratech.com
+    [udf3] => 7276414495
+    [udf4] => F401234
+    [udf5] => E
+    [pg] => 
+)
+
+
+fc558766333d054da980e07be1546190d47860097860643b28a3d0e1dd92c6700ef5101c08a7737bcf5156e2fd4878f18f14f5a8aa3245420a95048dfae2b613
+
+============================2017-11-20 10:15:13=========================
+
+Response
+Array
+(
+    [mihpayid] => 403993715516891070
+    [mode] => CC
+    [status] => success
+    [unmappedstatus] => captured
+    [key] => Wc1WCl
+    [txnid] => 02b4028461a8377b59ec
+    [amount] => 100.00
+    [cardCategory] => domestic
+    [discount] => 0.00
+    [net_amount_debit] => 100
+    [addedon] => 2017-11-20 15:42:14
+    [productinfo] => Info@
+    [firstname] => Narayan
+    [lastname] => Bhendarkar
+    [address1] => Plot # 208  Survery # 96 2B  Right Bhusari Colony 
+    [address2] => Near New India School  Paud Road  Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [udf1] => F101234
+    [udf2] => narayan@invitratech.com
+    [udf3] => 7276414495
+    [udf4] => F401234
+    [udf5] => E
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => 9dc15c52a27c36847bd4e3ec832670261342086b600b87d7c277c2374c684754315cc675532cf9387a4743223e82a6754b737339b801a3426ead18781ad70748
+    [field1] => 732449629124
+    [field2] => 999999
+    [field3] => 163123421573240
+    [field4] => 163123421573240
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => SUCCESS
+    [payment_source] => payu
+    [PG_TYPE] => HDFCPG
+    [bank_ref_num] => 163123421573240
+    [bankcode] => CC
+    [error] => E000
+    [error_Message] => No Error
+    [name_on_card] => Narayan
+    [cardnum] => 401200XXXXXX1112
+    [cardhash] => This field is no longer supported in postback params.
+)
+
+
+============================2017-11-20 10:16:18=========================
+
+Request
+Wc1WCl|9cebf5a1abeeb4cb2398|1000|gdfgdf|Narayan|narayan@invitratech.com|fg|dfd|dfgdf|gdfg|||||||6igOC55O
+
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 
+    [txnid] => 9cebf5a1abeeb4cb2398
+    [surl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [furl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [amount] => 1000
+    [firstname] => Narayan
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [productinfo] => gdfgdf
+    [lastname] => fdgfdg
+    [curl] => https://www.sportsdrive.in/payment_gateway/cancel.php
+    [address1] => Plot # 208, Survery # 96/2B, Right Bhusari Colony,
+    [address2] => Near New India School, Paud Road, Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [udf1] => fg
+    [udf2] => dfd
+    [udf3] => dfgdf
+    [udf4] => gdfg
+    [udf5] => 
+    [pg] => 
+)
+
+
+30a4c2499844289b15a98aeefc169ba1b911241e8f991c6e5f2a4d6029492d6b0cf866d77cf257418d0fb5a20450469e304306f61df5f144ca8e9b7b18898b23
+
+============================2017-11-20 10:19:21=========================
+
+Response
+Array
+(
+    [mihpayid] => 403993715516891145
+    [mode] => CC
+    [status] => success
+    [unmappedstatus] => captured
+    [key] => Wc1WCl
+    [txnid] => 9cebf5a1abeeb4cb2398
+    [amount] => 1000.00
+    [cardCategory] => domestic
+    [discount] => 0.00
+    [net_amount_debit] => 1000
+    [addedon] => 2017-11-20 15:47:39
+    [productinfo] => gdfgdf
+    [firstname] => Narayan
+    [lastname] => fdgfdg
+    [address1] => Plot # 208  Survery # 96 2B  Right Bhusari Colony 
+    [address2] => Near New India School  Paud Road  Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [udf1] => fg
+    [udf2] => dfd
+    [udf3] => dfgdf
+    [udf4] => gdfg
+    [udf5] => 
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => 24dcf4842368c5eef10a205f1e8c12be10ac7bab7737491e027bb4644e94594f2f4982c9a1b36a3b465c14d8c46b3ca4ac4240dfaeda1af449352da83fb79a72
+    [field1] => 732417083034
+    [field2] => 999999
+    [field3] => 7581762471573240
+    [field4] => 7581762471573240
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => SUCCESS
+    [payment_source] => payu
+    [PG_TYPE] => HDFCPG
+    [bank_ref_num] => 7581762471573240
+    [bankcode] => CC
+    [error] => E000
+    [error_Message] => No Error
+    [name_on_card] => Narayan
+    [cardnum] => 401200XXXXXX1112
+    [cardhash] => This field is no longer supported in postback params.
+)
+
+
+============================2017-11-20 10:20:46=========================
+
+Request
+Wc1WCl|674c15e7636ee1d5db87|10|TEST|Narayan|narayan@invitratech.com|||||||||||6igOC55O
+
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 
+    [txnid] => 674c15e7636ee1d5db87
+    [surl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [furl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [amount] => 10
+    [firstname] => Narayan
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [productinfo] => TEST
+    [lastname] => Bhendarkar
+    [curl] => 
+    [address1] => Plot # 208, Survery # 96/2B, Right Bhusari Colony,
+    [address2] => Near New India School, Paud Road, Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [udf1] => 
+    [udf2] => 
+    [udf3] => 
+    [udf4] => 
+    [udf5] => 
+    [pg] => 
+)
+
+
+886cb5b272324c406e96a91909ad83c4931ca64f33b02cb72a602a7da3d8c2541754be48ad1469f76c410459f7a08742ab7b77ceb6e47fb0e66e3390d15508a2
+
+============================2017-11-20 10:33:03=========================
+
+Response
+Array
+(
+    [mihpayid] => 403993715516891286
+    [mode] => DC
+    [status] => success
+    [unmappedstatus] => captured
+    [key] => Wc1WCl
+    [txnid] => 674c15e7636ee1d5db87
+    [amount] => 10.00
+    [cardCategory] => domestic
+    [discount] => 0.00
+    [net_amount_debit] => 10
+    [addedon] => 2017-11-20 16:01:25
+    [productinfo] => TEST
+    [firstname] => Narayan
+    [lastname] => Bhendarkar
+    [address1] => Plot # 208  Survery # 96 2B  Right Bhusari Colony 
+    [address2] => Near New India School  Paud Road  Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [udf1] => 
+    [udf2] => 
+    [udf3] => 
+    [udf4] => 
+    [udf5] => 
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => 1df3726d53d690b8db7e130ccd9728b35978d96fa98df8c2bc13fd7221e9db11e1d7af1ee575404e897d978875ce57be1eb01b607827bc0b62d5b33fcba73e3d
+    [field1] => 732449635720
+    [field2] => 999999
+    [field3] => 4215026011673240
+    [field4] => 4215026011673240
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => SUCCESS
+    [payment_source] => payu
+    [PG_TYPE] => HDFCPG
+    [bank_ref_num] => 4215026011673240
+    [bankcode] => MAST
+    [error] => E000
+    [error_Message] => No Error
+    [name_on_card] => Narayn
+    [cardnum] => 401200XXXXXX1112
+    [cardhash] => This field is no longer supported in postback params.
+)
+
+
+============================2017-11-20 12:38:23=========================
+
+Request
+Wc1WCl|b452f41cdfa7e32a97af|10|TEST|Narayan|narayan@invitratech.com|||||||||||6igOC55O
+
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 
+    [txnid] => b452f41cdfa7e32a97af
+    [surl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [furl] => https://www.sportsdrive.in/payment_gateway/response.php
+    [amount] => 10
+    [firstname] => Narayan
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [productinfo] => TEST
+    [lastname] => Bhendarkar
+    [curl] => https://www.sportsdrive.in/payment_gateway/cancel.php
+    [address1] => Plot # 208, Survery # 96/2B, Right Bhusari Colony,
+    [address2] => Near New India School, Paud Road, Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [udf1] => 
+    [udf2] => 
+    [udf3] => 
+    [udf4] => 
+    [udf5] => 
+    [pg] => 
+)
+
+
+68c1aadd0419ed45095f4b657f6fbfb69b3741e6a97a72fed2b8693dc4f64db032179eb40b348790fa812721cb082b8bf1869e4911bd70e6f39acc163173f489
+
+============================2017-11-20 12:41:50=========================
+
+Response
+Array
+(
+    [mihpayid] => 403993715516892552
+    [mode] => CC
+    [status] => success
+    [unmappedstatus] => captured
+    [key] => Wc1WCl
+    [txnid] => b452f41cdfa7e32a97af
+    [amount] => 10.00
+    [cardCategory] => domestic
+    [discount] => 0.00
+    [net_amount_debit] => 10
+    [addedon] => 2017-11-20 18:08:26
+    [productinfo] => TEST
+    [firstname] => Narayan
+    [lastname] => Bhendarkar
+    [address1] => Plot # 208  Survery # 96 2B  Right Bhusari Colony 
+    [address2] => Near New India School  Paud Road  Pune
+    [city] => Pune
+    [state] => Maharashtra
+    [country] => India
+    [zipcode] => 411038
+    [email] => narayan@invitratech.com
+    [phone] => 7276414495
+    [udf1] => 
+    [udf2] => 
+    [udf3] => 
+    [udf4] => 
+    [udf5] => 
+    [udf6] => 
+    [udf7] => 
+    [udf8] => 
+    [udf9] => 
+    [udf10] => 
+    [hash] => 17e442f7456daffafa543e7e956bf3328f7c576404986ab840cc9fe29c5edd938b1c6bf6b094eb82f4b6274558de16931cdc852d0de48a2edbeb679fe217ed83
+    [field1] => 732471776373
+    [field2] => 999999
+    [field3] => 9051020091873240
+    [field4] => 9051020091873240
+    [field5] => 
+    [field6] => 
+    [field7] => 
+    [field8] => 
+    [field9] => SUCCESS
+    [payment_source] => payu
+    [PG_TYPE] => HDFCPG
+    [bank_ref_num] => 9051020091873240
+    [bankcode] => CC
+    [error] => E000
+    [error_Message] => No Error
+    [name_on_card] => Naraysn
+    [cardnum] => 401200XXXXXX1112
+    [cardhash] => This field is no longer supported in postback params.
+)
+
+
+============================2017-11-22 09:47:00=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 28cd1e4dae7869d2771e7828af19d8d0d5b962107780f2f794e3d47de6384d40337ce1bd8f17f2b34c94439a9ef87d693183d12c27fa28ced2dce9fab966bc39
+    [var1] => 124
+    [command] => verify_payment
+)
+
+
+============================2017-11-22 09:47:00=========================
+
+Payment Response
+
+
+============================2017-11-22 09:49:12=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 68965f8685e4d258df4f1270205799cb96a2e16cb4ea1e0dbc61e885ba3becf0e487b9eccdad5dbac7a78b1f7154e87d2ebdd3789147cdb806b9842f43cd3c92
+    [var1] => 125
+    [command] => verify_payment
+)
+
+
+============================2017-11-22 09:49:13=========================
+
+Payment Response
+
+
+============================2017-12-07 10:08:56=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 5c047b92d4293fc0d6db041846ea664aa1699a4ec177aed37f0c493c229807cfad04b11d17f370a79c5aed37ef80d41de295101dfd7acc594daca33d531de061
+    [var1] => 1070
+    [command] => verify_payment
+)
+
+
+============================2017-12-07 10:08:57=========================
+
+Payment Response
+
+
+============================2017-12-08 04:39:12=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 1a99074da4280aa757a6554d2c8c911f42cc1afd7c135fb8e0b9d29eff1f4edcf862f1666b7cdd581bd441a9c8908991ec7b7d1fb8f3634f4bd1511f46ba6fc1
+    [var1] => 1027
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:39:14=========================
+
+Payment Response
+
+
+============================2017-12-08 04:39:24=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 97bed61d8767892e3a8d7a2ffef0b8ef835e1d1c6b6c1558b043d8ec23a0379196fe2fe9fb2f8d8d8688a43ef53c98796f6318ceebbc8e3154c4b9efb72c6d91
+    [var1] => 1072
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:39:24=========================
+
+Payment Response
+
+
+============================2017-12-08 04:39:28=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7cc50bcf56ee62ad8732d6bb751044cc0e5760082f4563f04508c263815c4084fc66a4303ba14abb3e68cdf2c057cb304d8d3d637f8c7dcb3580f6ba5bbaaed
+    [var1] => 1073
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:39:29=========================
+
+Payment Response
+
+
+============================2017-12-08 04:39:31=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => ffebd1aefbc5e34dbd7508998c24d51fa5c1796ce2712ce52515a83e5901e6ae84e522aa514be015da8601a99876875f10938d7b45b37f6011b50ae6993987ca
+    [var1] => 1074
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:39:32=========================
+
+Payment Response
+
+
+============================2017-12-08 04:39:56=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 97bed61d8767892e3a8d7a2ffef0b8ef835e1d1c6b6c1558b043d8ec23a0379196fe2fe9fb2f8d8d8688a43ef53c98796f6318ceebbc8e3154c4b9efb72c6d91
+    [var1] => 1072
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:39:56=========================
+
+Payment Response
+
+
+============================2017-12-08 04:43:33=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 97bed61d8767892e3a8d7a2ffef0b8ef835e1d1c6b6c1558b043d8ec23a0379196fe2fe9fb2f8d8d8688a43ef53c98796f6318ceebbc8e3154c4b9efb72c6d91
+    [var1] => 1072
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:43:34=========================
+
+Payment Response
+
+
+============================2017-12-08 04:54:29=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7cc50bcf56ee62ad8732d6bb751044cc0e5760082f4563f04508c263815c4084fc66a4303ba14abb3e68cdf2c057cb304d8d3d637f8c7dcb3580f6ba5bbaaed
+    [var1] => 1073
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 04:54:30=========================
+
+Payment Response
+
+
+============================2017-12-08 05:09:00=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7cc50bcf56ee62ad8732d6bb751044cc0e5760082f4563f04508c263815c4084fc66a4303ba14abb3e68cdf2c057cb304d8d3d637f8c7dcb3580f6ba5bbaaed
+    [var1] => 1073
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 05:09:01=========================
+
+Payment Response
+
+
+============================2017-12-08 05:17:28=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7cc50bcf56ee62ad8732d6bb751044cc0e5760082f4563f04508c263815c4084fc66a4303ba14abb3e68cdf2c057cb304d8d3d637f8c7dcb3580f6ba5bbaaed
+    [var1] => 1073
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 05:17:30=========================
+
+Payment Response
+
+
+============================2017-12-08 05:38:00=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => ffebd1aefbc5e34dbd7508998c24d51fa5c1796ce2712ce52515a83e5901e6ae84e522aa514be015da8601a99876875f10938d7b45b37f6011b50ae6993987ca
+    [var1] => 1074
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 05:38:01=========================
+
+Payment Response
+
+
+============================2017-12-08 08:59:28=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 052d11bff79a7d8a96790091fb831a003fc8f51f952a0901d8139aad0874d758e83a3051862002691d9a5abbe0e3a763d2812a63115b8cc664b08449cc68e859
+    [var1] => 1074.
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 08:59:29=========================
+
+Payment Response
+
+
+============================2017-12-08 08:59:35=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => f46a806268b0ce358932aa9b0f48dfda3b54e9658fbc6122109d9dd83101b5815415118b28c632e46d6b7ae538e7b254a44aeb3a89c24547b1c31969596e9509
+    [var1] => 1075
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 08:59:36=========================
+
+Payment Response
+
+
+============================2017-12-08 08:59:43=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7af46eb7a3e1bc250c5416d9cbbd2d93b577015ce3654bf4c1ac33367f887ecac89819d7eabc01610d7d3e1fd28e5747dc06a51aac579a583259a0582876590
+    [var1] => 1076
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 08:59:43=========================
+
+Payment Response
+
+
+============================2017-12-08 09:00:23=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => ffebd1aefbc5e34dbd7508998c24d51fa5c1796ce2712ce52515a83e5901e6ae84e522aa514be015da8601a99876875f10938d7b45b37f6011b50ae6993987ca
+    [var1] => 1074
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 09:00:24=========================
+
+Payment Response
+
+
+============================2017-12-08 09:16:42=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7af46eb7a3e1bc250c5416d9cbbd2d93b577015ce3654bf4c1ac33367f887ecac89819d7eabc01610d7d3e1fd28e5747dc06a51aac579a583259a0582876590
+    [var1] => 1076
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 09:16:44=========================
+
+Payment Response
+
+
+============================2017-12-08 09:16:46=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7af46eb7a3e1bc250c5416d9cbbd2d93b577015ce3654bf4c1ac33367f887ecac89819d7eabc01610d7d3e1fd28e5747dc06a51aac579a583259a0582876590
+    [var1] => 1076
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 09:16:46=========================
+
+Payment Response
+
+
+============================2017-12-08 10:13:59=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => f46a806268b0ce358932aa9b0f48dfda3b54e9658fbc6122109d9dd83101b5815415118b28c632e46d6b7ae538e7b254a44aeb3a89c24547b1c31969596e9509
+    [var1] => 1075
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 10:13:59=========================
+
+Payment Response
+
+
+============================2017-12-08 10:14:19=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 38c8bf13e691b5eac5afce33c1b7511fe728c043c8faa6ae41e05fd013ad0bdd9dbc66ac49d552c86aae6dcbca6d852c1377c2d1e3804a19fbecdd62925124b6
+    [var1] => 1077
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 10:14:20=========================
+
+Payment Response
+
+
+============================2017-12-08 10:18:02=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 38c8bf13e691b5eac5afce33c1b7511fe728c043c8faa6ae41e05fd013ad0bdd9dbc66ac49d552c86aae6dcbca6d852c1377c2d1e3804a19fbecdd62925124b6
+    [var1] => 1077
+    [command] => verify_payment
+)
+
+
+============================2017-12-08 10:18:03=========================
+
+Payment Response
+
+
+============================2017-12-30 04:07:27=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 97bed61d8767892e3a8d7a2ffef0b8ef835e1d1c6b6c1558b043d8ec23a0379196fe2fe9fb2f8d8d8688a43ef53c98796f6318ceebbc8e3154c4b9efb72c6d91
+    [var1] => 1072
+    [command] => verify_payment
+)
+
+
+============================2017-12-30 04:07:27=========================
+
+Payment Response
+
+
+============================2019-05-09 10:07:27=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e7f62da1d957c5d2350e491e31faac9e4bc3d38754ccd7c9a500e1ebf77fd2534345119197eb17942ecf2b1a4ccb0f93c5db6c6c0a09f5fbbcddac98ad8a676d
+    [var1] => 4779
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:07:28=========================
+
+Payment Response
+
+
+============================2019-05-09 10:08:03=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 5449e665d773fa4e3d73057325f0a8ad694b6cb11312bf36d539530286142aa8e26eeb7a9b27f83fba818aa6903ff0e9e539f72097d97b14f81b526ccca8b65a
+    [var1] => 4173
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:08:03=========================
+
+Payment Response
+
+
+============================2019-05-09 10:10:00=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 5449e665d773fa4e3d73057325f0a8ad694b6cb11312bf36d539530286142aa8e26eeb7a9b27f83fba818aa6903ff0e9e539f72097d97b14f81b526ccca8b65a
+    [var1] => 4173
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:10:04=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 5449e665d773fa4e3d73057325f0a8ad694b6cb11312bf36d539530286142aa8e26eeb7a9b27f83fba818aa6903ff0e9e539f72097d97b14f81b526ccca8b65a
+    [var1] => 4173
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:10:06=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 5449e665d773fa4e3d73057325f0a8ad694b6cb11312bf36d539530286142aa8e26eeb7a9b27f83fba818aa6903ff0e9e539f72097d97b14f81b526ccca8b65a
+    [var1] => 4173
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:11:31=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 5449e665d773fa4e3d73057325f0a8ad694b6cb11312bf36d539530286142aa8e26eeb7a9b27f83fba818aa6903ff0e9e539f72097d97b14f81b526ccca8b65a
+    [var1] => 4173
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:11:59=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => 16b1e790e3413410c8eef1a15c9e441a4a0518f6338c5f7f45819635bae1f675ca29036b52a7061bc8e9b0c21fcaed567c8945f9699e68eb96a82fe67ad66df9
+    [var1] => 1368
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:12:22=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e250ac03d68f6aa36ca1e906b71ba5e6b2e3326f8c40c52bca84cf28c2307c3711f020caf3697d9d2e38b2123f3fa3f6f8ea6aceaeaf780f693c8b44150372d7
+    [var1] => 4781
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:12:56=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => e250ac03d68f6aa36ca1e906b71ba5e6b2e3326f8c40c52bca84cf28c2307c3711f020caf3697d9d2e38b2123f3fa3f6f8ea6aceaeaf780f693c8b44150372d7
+    [var1] => 4781
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:13:23=========================
+
+Curl Data Request
+Array
+(
+    [key] => Wc1WCl
+    [hash] => ecc23e51b8d3ab88aac0999b1268271ba9cc657739eb0aaaff593af1c1da1009c7f82b6de9c9e442011def80ccbfda0cc17c730b985137c5aa2a4cacdf2e3e12
+    [var1] => 4794
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:14:24=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 253a1bad87c7bea1f1069633dc24191d3bb96612c3cb24e20f1aba91c6a44d388e712c8ab097c323eb04045660fc0dedf473e75dfb257c93f6b7a60d74a9d0b1
+    [var1] => 4794
+    [command] => verify_payment
+)
+
+
+============================2019-05-09 10:15:06=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 253a1bad87c7bea1f1069633dc24191d3bb96612c3cb24e20f1aba91c6a44d388e712c8ab097c323eb04045660fc0dedf473e75dfb257c93f6b7a60d74a9d0b1
+    [var1] => 4794
+    [command] => verify_payment
+)
+
+
+============================2021-02-04 07:37:00=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 8a35af45321f8bb0a76a209b722a64e1038f181d5cdefd2073be8e90f64403b12b0e6deb9b81583d8732a94b33a314460aa6fdd86f14fdb6bfb11b65dd8b0c9a
+    [var1] => 8374
+    [command] => verify_payment
+)
+
+
+============================2021-02-04 08:54:03=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 8a35af45321f8bb0a76a209b722a64e1038f181d5cdefd2073be8e90f64403b12b0e6deb9b81583d8732a94b33a314460aa6fdd86f14fdb6bfb11b65dd8b0c9a
+    [var1] => 8374
+    [command] => verify_payment
+)
+
+
+============================2021-02-04 09:12:26=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 8a35af45321f8bb0a76a209b722a64e1038f181d5cdefd2073be8e90f64403b12b0e6deb9b81583d8732a94b33a314460aa6fdd86f14fdb6bfb11b65dd8b0c9a
+    [var1] => 8374
+    [command] => verify_payment
+)
+
+
+============================2021-02-04 09:12:29=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 7ba0c4f23d7a16901908f4abe4470c58d9c8fc9da16feb79f8a5c333fdbbb628248007976a979d8749b1f3225b5cb73a77d2c07aff5cfaff650013555a9eddb5
+    [var1] => 8373
+    [command] => verify_payment
+)
+
+
+============================2021-02-04 10:45:17=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 7ba0c4f23d7a16901908f4abe4470c58d9c8fc9da16feb79f8a5c333fdbbb628248007976a979d8749b1f3225b5cb73a77d2c07aff5cfaff650013555a9eddb5
+    [var1] => 8373
+    [command] => verify_payment
+)
+
+
+============================2021-02-04 14:37:29=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 8a35af45321f8bb0a76a209b722a64e1038f181d5cdefd2073be8e90f64403b12b0e6deb9b81583d8732a94b33a314460aa6fdd86f14fdb6bfb11b65dd8b0c9a
+    [var1] => 8374
+    [command] => verify_payment
+)
+
+
+============================2021-02-09 07:41:40=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 10c57ad7de6c98507d4ac6871446674bb539470895f7966ee3400193c68e02dfbddce06b56ee346d3edfa580b3a65fdf00940d6894753c758388fb04a04efd02
+    [var1] => 4188
+    [command] => verify_payment
+)
+
+
+============================2021-02-11 13:11:26=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => eed63b0b8d4b891891b710c5f4693b91c7d499076a4761acc902f5f24f2b7dbe3d3dc7f8deef2326c233a42ae5cd1bb7e84e1d0f8178e8d9f34934980d7a1486
+    [var1] => 8443
+    [command] => verify_payment
+)
+
+
+============================2021-02-11 13:12:05=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 94e6717b81133c38912a525a9e6d15b269626ee97a6e70f5077aec586cfa0fcad457665bdfdaee92da49a3005e1f01f8a33d137af5c1b6896c3d8446c79ae1f4
+    [var1] => 8451
+    [command] => verify_payment
+)
+
+
+============================2021-02-11 13:15:46=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => eed63b0b8d4b891891b710c5f4693b91c7d499076a4761acc902f5f24f2b7dbe3d3dc7f8deef2326c233a42ae5cd1bb7e84e1d0f8178e8d9f34934980d7a1486
+    [var1] => 8443
+    [command] => verify_payment
+)
+
+
+============================2021-02-11 13:16:45=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 94e6717b81133c38912a525a9e6d15b269626ee97a6e70f5077aec586cfa0fcad457665bdfdaee92da49a3005e1f01f8a33d137af5c1b6896c3d8446c79ae1f4
+    [var1] => 8451
+    [command] => verify_payment
+)
+
+
+============================2021-02-15 05:51:23=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 61d71764771908ef20e995805109d6fbafccfefddd499b4f1f3f9048f2eb0cc584853d1d6a3a225919d10555a4cf53f06264af343d5073c38fcbbe8108d54476
+    [var1] => 8491
+    [command] => verify_payment
+)
+
+
+============================2021-02-15 06:18:59=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => f5b0ddfe7d171efd87616f8401f3458badd5677ec0cebe60a42a391f5c1c5333ea8c46ebaddb3ca47695f0dcd2fcba7358d21581c014631c8105229154d1bef3
+    [var1] => 8497
+    [command] => verify_payment
+)
+
+
+============================2021-02-15 07:11:59=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => f5b0ddfe7d171efd87616f8401f3458badd5677ec0cebe60a42a391f5c1c5333ea8c46ebaddb3ca47695f0dcd2fcba7358d21581c014631c8105229154d1bef3
+    [var1] => 8497
+    [command] => verify_payment
+)
+
+
+============================2021-02-15 13:46:04=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => f5b0ddfe7d171efd87616f8401f3458badd5677ec0cebe60a42a391f5c1c5333ea8c46ebaddb3ca47695f0dcd2fcba7358d21581c014631c8105229154d1bef3
+    [var1] => 8497
+    [command] => verify_payment
+)
+
+
+============================2021-02-15 13:48:08=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 1b03d7ab52cbdd720a2958b155c2d11aa1b1965183c83934fe3081a690e948576595470bc81f4e8a0a89ff2f4b57a00a1f7c34ea3c30c887da362709d0eaf98c
+    [var1] => 8510
+    [command] => verify_payment
+)
+
+
+============================2021-02-15 13:49:23=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 61d71764771908ef20e995805109d6fbafccfefddd499b4f1f3f9048f2eb0cc584853d1d6a3a225919d10555a4cf53f06264af343d5073c38fcbbe8108d54476
+    [var1] => 8491
+    [command] => verify_payment
+)
+
+
+============================2021-02-24 09:06:50=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => e4345dc7e84a7d792e4416823858ca5aecd0e452d13cd0cff3e55c6f79ab8481478d0595f2e23292e920ed02804797e63c69da06ebb6a56725f7f6e7c8456314
+    [var1] => 8595
+    [command] => verify_payment
+)
+
+
+============================2021-02-24 09:09:21=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => f6785a4db2ffa699a9399ce2e0030e0abe984ad596904ed6c711318e037c560518f898c1bdeec7e4d8070866bde729f2cf9933c9a10b095c2c7090d02536bd50
+    [var1] => 8605
+    [command] => verify_payment
+)
+
+
+============================2021-03-02 08:52:38=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 27f4248cf97fe8ef91a6518e53fd8d9e4c4678d334a513495c78802c402d9b6ad91a04d0b74ed3a02f4d583ec03b0efc44f1b9d734415bc1538252d5fb320e65
+    [var1] => 8666
+    [command] => verify_payment
+)
+
+
+============================2021-03-02 08:53:22=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 59aa8248fb52e3056999b1bfa38d3a9f3723b5422a9b9d8a598e0d1dfa51b972bc753621927c898a5321f61137a958fb9df7858d1082a33523989875b713b127
+    [var1] => 8667
+    [command] => verify_payment
+)
+
+
+============================2021-03-02 09:21:28=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 59aa8248fb52e3056999b1bfa38d3a9f3723b5422a9b9d8a598e0d1dfa51b972bc753621927c898a5321f61137a958fb9df7858d1082a33523989875b713b127
+    [var1] => 8667
+    [command] => verify_payment
+)
+
+
+============================2021-03-09 04:06:17=========================
+
+Curl Data Request
+Array
+(
+    [key] => q1S51f
+    [hash] => 17ab1e695fc43d4138e39ef6f416fb61010db2a978a4947376124c88e6b1778037a1f28ca0f72d88fab9c301d9b20b5a5a309cc1ef64083ff27a05733b535702
+    [var1] => 8726
+    [command] => verify_payment
+)
+
+

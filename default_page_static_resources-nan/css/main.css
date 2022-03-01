@@ -1,0 +1,303 @@
+body {font-family: 'Roboto', sans-serif;}
+
+
+.container {
+    max-width: 970px;
+    position: relative;
+}
+
+.logo {
+	width: 331px;
+	height: 106px;
+	background: url(../img/logo.png) no-repeat center;
+	display: block;
+	margin-left: 20px;
+	float: left;
+}
+
+.robot {
+	width: 422px;
+	height: 395px;
+	background: url(../img/robot.png) no-repeat center;
+	position: absolute;
+    top: -55px;
+    right: -10px;
+}
+
+.top-banner {
+	background: url(../img/bg-blue.jpg) no-repeat center;
+	width: 100%;
+	min-height: 420px;
+	background-attachment: fixed;
+	padding-top: 96px;
+}
+
+
+.bg-h1 {
+	background: #1e3647;
+	height: 106px;
+}
+
+
+.top-banner h1 {
+	font-size: 36px;
+	line-height: 106px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+.top-banner p {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 38px;
+}
+
+
+.list-features {
+	background: url(../img/bg-servers.jpg) no-repeat top center;
+	padding: 28px 0;
+}
+
+
+
+.list-features a {
+	color: #0c3c5f;
+	font-weight: 700;
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+	background: #57aece;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    height: 160px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+        -moz-transition-duration: 0.4s; /* Firefox 4 */
+    -webkit-transition-duration: 0.4s; /* Safari and Chrome */
+    -o-transition-duration: 0.4s; /* Opera */
+}
+
+.list-features a:hover {
+	background: #0e2e44;
+	text-decoration: none;
+	color: #fff;
+        -moz-transition-duration: 0.4s; /* Firefox 4 */
+    -webkit-transition-duration: 0.4s; /* Safari and Chrome */
+    -o-transition-duration: 0.4s; /* Opera */
+}
+
+
+.list-features a i {
+	display: block;
+	height: 82px;
+	margin: 0 0 20px 0;
+}
+
+
+.list-features i.i1 {
+	background: url(../img/i1.png) no-repeat top center;
+}
+
+.list-features i.i2 {
+	background: url(../img/i2.png) no-repeat top center;
+}
+
+.list-features i.i3 {
+	background: url(../img/i3.png) no-repeat top center;
+}
+
+.list-features i.i4 {
+	background: url(../img/i4.png) no-repeat top center;
+}
+
+.list-features i.i5 {
+	background: url(../img/i5.png) no-repeat top center;
+}
+
+.list-features i.i6 {
+	background: url(../img/i6.png) no-repeat top center;
+}
+
+.list-features i.i7 {
+	background: url(../img/i7.png) no-repeat top center;
+}
+
+.list-features i.i8 {
+	background: url(../img/i8.png) no-repeat top center;
+}
+
+
+
+
+
+.footer {
+
+	background: #0e2e44;
+
+	padding-top: 20px;
+
+}
+
+
+
+.footer-list ul li h5 {
+
+	font-size: 19px;
+
+	font-weight: 700;
+
+	margin: 20px 0;
+
+	color: #fff;
+
+}
+
+
+
+.footer-list ul li a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 10px 0;
+	color: #fff;
+	padding-left: 20px;
+	background: url(../img/arrow.png) no-repeat left center;
+}
+
+
+
+.footer-info {
+
+	border-top: 1px solid #324E60;
+
+	margin-top: 20px;
+
+}
+
+
+
+.footer-info .left-i p {
+
+	font-size: 13px;
+
+	color: #fff;
+
+	margin: 12px 0;
+
+}
+
+
+
+.footer-info .left-i p span {
+
+	color: #999;
+
+}
+
+
+
+.footer-info ul {
+
+	margin: 0 0 0 30px;
+
+}
+
+
+
+.footer-info ul li {
+
+	display: inline-block;
+
+}
+
+
+
+.footer-info ul li a {
+
+	  text-decoration: none;
+
+    color: #fff;
+
+		font-size: 13px;
+
+    margin-left: 10px;
+
+		padding: 12px 0;
+
+		display: block;
+
+}
+
+
+
+.footer-info .right-i .social-networks {
+
+    font-size: 13px;
+
+    color: #fff;
+
+    margin: 12px 0;
+
+}
+
+
+
+.footer-info .right-i .social-networks a {
+
+    text-indent: -999em;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+    margin: 0 3px;
+
+}
+
+
+
+.footer-info .right-i .social-networks .f-fb {
+
+    background: url(../img/icon_footer_facebook.png) no-repeat;
+
+    width: 16px;
+
+    height: 16px;
+
+}
+
+
+
+.footer-info .right-i .social-networks .f-tw {
+
+    background: url(../img/icon_footer_twitter.png) no-repeat;
+
+    width: 22px;
+
+    height: 17px;
+
+}
+
+
+
+.footer-info .right-i .social-networks .f-g {
+
+    background: url(../img/icon_footer_google.png) no-repeat;
+
+    width: 16px;
+
+    height: 16px;
+
+}
+
+
+

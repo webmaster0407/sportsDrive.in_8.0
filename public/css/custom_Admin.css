@@ -1,0 +1,24 @@
+.label-mandatory{
+	color: red;
+}
+.btnCenter{
+	text-align: center;
+}
+.help-block{
+ color: red;
+}
+
+select.disable{pointer-events:none}
+
+.box-select .box{border-top:1px solid #dedede;}
+.box-select .box h3{font-size:15px;}
+.box-select .box-header{padding: 6px 10px;}
+.box-select .box-header .box-tools .btn{line-height:0px;}
+.box-select .box-header .box-tools .btn i{color: #555;}
+.box-select .box-body{max-height:350px;overflow-y: auto;}
+.box-select .box-body input{display:inline-block;
+	vertical-align: middle;margin-right:5px;margin-top:0px;}
+.box-select .box-body strong{vertical-align: middle;display:inline-block;}
+.box-select .box-body .cat-1{margin-left:20px;margin-bottom:5px;}
+.box-select .box-body .cat-2{margin-left:40px;margin-bottom:5px;}
+

@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src='//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js'></script>
+    <script src='//static.codepen.io/assets/editor/live/css_live_reload_init-890dc39bb89183d4642d58b1ae5376a0193342f9aed88ea04330dc14c8d52f55.js'></script>
+    <meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+    <link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+    <link rel="canonical" href="https://codepen.io/SitePoint/pen/WEbVzd" />
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+    <script>
+        function openQRCamera(node) {
+            var reader = new FileReader();
+                reader.onload = function() {
+                node.value = "";
+                qrcode.callback = function(res) {
+                    if(res instanceof Error) {
+                        alert("No QR code found. Please make sure the QR code is within the camera's frame and try again.");
+                    } else {
+                        node.parentNode.previousElementSibling.value = res;
+                    }
+                };
+                qrcode.decode(reader.result);
+            };
+            reader.readAsDataURL(node.files[0]);
+        }
+        function showQRIntro() {
+            return confirm("Use your camera to take a picture of a QR code.");
+        }
+    </script>
+    <style>
+        body, input {font-size:14pt}
+        input, label {vertical-align:middle}
+        .qrcode-text {padding-right:1.7em; margin-right:0}
+        .qrcode-text-btn {display:inline-block; background:url(http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg) 50% 50% no-repeat; height:1em; width:1.7em; margin-left:-1.7em; cursor:pointer}
+        .qrcode-text-btn > input[type=file] {position:absolute; overflow:hidden; width:1px; height:1px; opacity:0}
+    </style>
+</head>
+<body>
+<input type=text size=16 placeholder="Tracking Code" class=qrcode-text>
+    <label class=qrcode-text-btn>
+        <input type="file" accept="image/*" capture="camcorder" onclick="return showQRIntro();" onchange="openQRCamera(this);" tabindex=-1>
+    </label>
+<input type=button value="Go">
+</body>
+</html>

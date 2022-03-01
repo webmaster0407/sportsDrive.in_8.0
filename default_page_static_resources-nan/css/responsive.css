@@ -1,0 +1,49 @@
+
+
+@media (max-width: 985px) { 
+	.robot {
+		display: none;
+	}
+
+}
+
+
+
+@media (max-width: 640px) { 
+	
+	.top-banner {
+		padding-top: 40px;
+	}
+
+	.top-banner h1, .top-banner .logo {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		float: none;
+		line-height: normal;
+	}
+
+	.bg-h1 {
+		height: auto;
+	}
+
+}
+
+
+
+
+
+@media (max-width: 420px) {
+
+	.footer-info .right-i .social-networks {
+		display: none;
+	}
+	
+	.footer-info .left-i p {
+		float: none!important;
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+
+}

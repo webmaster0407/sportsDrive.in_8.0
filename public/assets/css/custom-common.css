@@ -1,0 +1,218 @@
+
+/* 
+ * Header search form
+ */
+header .product_search_form.radius_input {
+    overflow: inherit;
+}
+.product_search_form.radius_input #searchList {
+    width: 100%;
+}
+.product_search_form.radius_input #searchList > p {
+    border: 1px solid #ced4da;
+    border-top: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+.product_search_form.radius_input #searchList > span {
+    position: absolute;
+    top: -35px;
+    right: 130px;
+    z-index: 9999;
+}
+.product_search_form.radius_input #searchList .autoList {
+    position: absolute;
+    border: 1px solid #ced4da;
+    border-top: 0;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: white;
+    overflow-y: auto;
+}
+#searchList .autoList li {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ced4da;
+    display: flex;
+}
+#searchList .autoList .name-price span {
+    display: block;
+}
+@media (min-width: 992px) {
+    header .product_search_form.radius_input {
+        position: relative;
+    }
+}
+/* 
+ * Category mega menu 
+ */
+#navCatContent li.dropdown-mega-menu > a {
+    font-size: 16px;
+}
+#navCatContent li.dropdown-mega-menu > a.dropdown-toggler {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    bottom: 0;
+    cursor: pointer;
+}
+#navCatContent li.dropdown-mega-menu > a.dropdown-toggler:after {
+    position: static;
+}
+
+
+/*pagination for all pages*/
+.pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.pagination li {
+    margin-right: 10px;
+}
+.pagination li:last-child {
+    margin-right: 0;
+}
+.pagination li > * {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    color: #124d8f;
+    background-color: #fff;
+    position: relative;
+    transition: all .2s;
+}
+.pagination li.active * {
+    background-color: #124d8f;
+    color: #ffffff !important;
+}
+.pagination li:not(.disabled):hover > * {
+    background-color: #124d8f;
+    color: #ffffff !important;
+}
+.pagination li:nth-child(1) > *,
+.pagination li:last-child > * {
+    font-family: 'Linearicons' !important;
+    text-indent: -9999px;
+}
+.pagination li:nth-child(1) > *:after {
+    content: "\ec43";
+    display: block;
+    text-indent: 0;
+}
+.pagination li:last-child > *:after {
+    content: "\ec44";
+    display: block;
+    text-indent: 0;
+}
+
+/*
+ * Color styles for sportsdrive.in
+ */
+button.form-control {
+    color: #ffffff;
+}
+.breadcrumb-item.active {
+    color: #124d8f;
+}
+.size-chart a {
+    color: #da1263;
+}
+.stock-Div a {
+    color: #008e6e;
+}
+.user-links .dropdown-menu.show {
+    transform: translate3d(-175px, 67px, 0px) !important;
+}
+.breadcrumb_section.page-title-mini {
+    padding: 20px 0;
+}
+.section {
+    padding: 50px 0;
+}
+.product_slider .product_img a {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+@media only screen and (max-width: 767px) {
+    .shop_container .product_img {
+        text-align: center;
+    }
+}
+/* Product attribute fix */
+.product-attributes-wrapper {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    padding: 20px 15px;
+}
+.product-attributes-wrapper .switch_label {
+    color: #124d8f;
+    min-width: 50px;
+}
+.product-attributes-wrapper .size-list,
+.product-attributes-wrapper .pr_switch_wrap {
+    display: flex;
+    align-items: center;
+}
+.product_size_switch span {
+    border-color: #999;
+    background-color: #fff;
+}
+.product_size_switch span.sizeselect {
+    padding: 0 5px;
+    border-radius: 4px;
+    min-width: 90px;
+    margin-bottom: 10px;
+}
+.product_size_switch span.active {
+    border-color: #124d8f;
+    color: #124d8f;
+    background-color: transparent;
+    font-weight: 700;
+}
+.outstockSize {
+    background-color: #999 !important;
+}
+/*
+ * scrolling issue fix
+ */
+body {
+    overflow-x: hidden;
+}
+/* Product modal fix */
+.modal.fade .modal-dialog {
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+@media only screen and (max-width: 767px) {
+    .modal.fade .modal-dialog {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+}
+/* Footer fix */
+.contact_info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

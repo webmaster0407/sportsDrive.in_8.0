@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: localhost:3306
+- Generation Time: Mar 29, 2019 at 11:18 AM
+- Server version: 5.7.24
+- PHP Version: 7.2.11
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="sportsdrive" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="customers">
+                CREATE TABLE `customers` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `customer_type` enum('individual','company') NOT NULL DEFAULT 'individual',
+                  `first_name` varchar(255) NOT NULL,
+                  `last_name` varchar(255) NOT NULL,
+                  `company_name` varchar(255) DEFAULT NULL,
+                  `email_address` varchar(255) NOT NULL,
+                  `phone` varchar(255) DEFAULT NULL,
+                  `alt_phone` varchar(255) DEFAULT NULL,
+                  `password` varchar(255) NOT NULL,
+                  `is_active` enum('Y','N') NOT NULL DEFAULT 'Y',
+                  `remember_token` varchar(255) DEFAULT NULL,
+                  `is_subscriber` enum('Y','N') NOT NULL DEFAULT 'N',
+                  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+                  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'sportsdrive'
+    -->
+    <database name="sportsdrive">
+        <!-- Table customers -->
+        <table name="customers">
+            <column name="id">6</column>
+            <column name="customer_type">individual</column>
+            <column name="first_name">Amol</column>
+            <column name="last_name">Rokade</column>
+            <column name="company_name">NULL</column>
+            <column name="email_address">amolro.kade121@gmail.com</column>
+            <column name="phone">9689170889</column>
+            <column name="alt_phone">NULL</column>
+            <column name="password">$2y$10$iMf0lX8OUf6GpzT0u5QRsuz/Nx5vayn7re7Xef6Vvp4bCx.pXag0.</column>
+            <column name="is_active">Y</column>
+            <column name="remember_token">jfOCo4Gp6oev5yWoFPAeyiGlFdmJmhK8aLD0Kb9F</column>
+            <column name="is_subscriber">N</column>
+            <column name="created_at">2019-02-22 15:03:15</column>
+            <column name="updated_at">2019-02-22 15:03:15</column>
+        </table>
+        <table name="customers">
+            <column name="id">7</column>
+            <column name="customer_type">individual</column>
+            <column name="first_name">dfbhtg</column>
+            <column name="last_name">hrth</column>
+            <column name="company_name">hrthrth</column>
+            <column name="email_address">thrth@dfverfg.rgr</column>
+            <column name="phone">4535345</column>
+            <column name="alt_phone">545345</column>
+            <column name="password">HTRHTRHdjhtyjfgfjwTRHRTaHTRsdfewfrHRTHTRewf</column>
+            <column name="is_active">Y</column>
+            <column name="remember_token">HTRHTRHdjhtyjfgfjwTRHRTaHTRsdfewfrHRTHTRewf</column>
+            <column name="is_subscriber">N</column>
+            <column name="created_at">2019-03-15 17:16:32</column>
+            <column name="updated_at">2019-03-15 17:16:32</column>
+        </table>
+        <table name="customers">
+            <column name="id">8</column>
+            <column name="customer_type">individual</column>
+            <column name="first_name">dfbhtg</column>
+            <column name="last_name">hrth</column>
+            <column name="company_name">hrthrth</column>
+            <column name="email_address">thrDEVGEth@dfverfg.rgr</column>
+            <column name="phone">4535345</column>
+            <column name="alt_phone">545345</column>
+            <column name="password">HTRHTRHdjhtyjfgfjwTRHRTaHTRsdfewfrHRTHTRewf</column>
+            <column name="is_active">Y</column>
+            <column name="remember_token">HTRHTRHdjhtyjfgfjwTRHRTaHTRsdfewfrHRTHTRewf</column>
+            <column name="is_subscriber">N</column>
+            <column name="created_at">2019-03-15 17:16:56</column>
+            <column name="updated_at">2019-03-15 17:16:56</column>
+        </table>
+    </database>
+</pma_xml_export>

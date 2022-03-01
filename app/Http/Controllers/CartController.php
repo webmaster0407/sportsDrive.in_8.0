@@ -136,9 +136,14 @@ class CartController extends Controller
             }
 
             if ($order === null) {//there is no order found
+                $user_id = null;
+                if ($user !== null) {
+                    $user_id = $user['id'];
+                }
+                
                 $orderData = [
                     'invoice_id' => null,
-                    'customer_id' => $user['id'],
+                    'customer_id' => $user_id,
                     'order_date' => Carbon::now(),
                     'total_cart_item' => $data['quantity'],
                     'created_at' => Carbon::now(),

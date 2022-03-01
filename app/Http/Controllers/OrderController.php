@@ -178,7 +178,7 @@ class OrderController extends Controller {
                 $totalDiscount = 0;    
             }
 
-            if($amountDetails != null && $amountDetails['status'] == 200){
+            if($amountDetails !== null && $amountDetails['status'] == 200){
                 $subtotal =$subtotal-$amountDetails['additionalDiscount'];
             }
 
@@ -389,7 +389,7 @@ class OrderController extends Controller {
             } else {
                 $paymentStatus = StatusMaster::where('slug', 'failed')->where('is_payment', 'Y')->pluck('status_id');
             }
-            if(!array_key_exists("cardCategory",$_POST))
+            if(!array_key_exists("cardCategory", $_POST))
                 $_POST['cardCategory'] = null;
             $PayU_PaymentID = $_POST['mihpayid'];
             $PayU_PaymentMode = $_POST['mode'];

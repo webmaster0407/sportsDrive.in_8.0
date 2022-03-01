@@ -64,7 +64,7 @@
                                 Address Title
                                 <span>*</span>
                             </label>
-                            <select name="address_title" id="address_title">
+                            <select name="address_title" id="address_title" class="form-control">
                                 <option <?php if(old('address_title')=="Home") echo "selected";?> value="Home">Home</option>
                                 <option  <?php if(old('address_title')=="Office") echo "selected";?> value="Office">Office</option>
                                 <option  <?php if(old('address_title')=="Other") echo "selected";?> value="Other">Other</option>
